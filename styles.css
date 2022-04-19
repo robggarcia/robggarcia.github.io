@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 html {
     font-family: "Poppins", sans-serif;
 }
@@ -75,3 +76,71 @@ footer {
     display: flex;
     margin: 3em auto 1em auto;
 }
+=======
+html {
+    font-family: "Poppins", sans-serif;
+}
+body {
+    display: flex;
+    max-width: 900px;
+    margin: 0 auto;
+    flex-direction: column;
+    padding: 1rem;
+}
+/*NAVIGATION*/
+nav {
+    display: flex;
+    align-items: center;
+}
+.name {
+    display: inline-block;
+}
+.nav-list {
+    list-style-type: none;
+    margin-left: auto;
+}
+.nav-list li {
+    display: inline;
+    padding-left: 1.2rem;
+}
+a:link {
+    text-decoration: none;
+    color: black;
+}
+a:visited {
+    color: black;
+}
+/*ABOUT ME*/
+#aboutMe {
+    display: flex;
+    justify-content: space-between;
+}
+img {
+    display: inline-block;
+    height: 400px;
+    width: auto;
+    border-radius: 20px;
+}
+/*PROJECTS*/
+.projects-list {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.another-project {
+    display: block;
+    width: 350px;
+    background-color: lightgray;
+    margin: 1rem;
+    padding: 1rem;
+    box-shadow: 4px 4px 4px darkgray;
+}
+.skills-container {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+.fa-html5:before {
+    content: "\f13b";
+}
+>>>>>>> 0fdef4d8ac1f27244d86a60486fbb793be4eba31
